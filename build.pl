@@ -72,7 +72,7 @@ if ($build) {
 
 if ($test) {
     print "Running tests\n";
-    system("./AutisticAssembler/test/test_asm") == 0 or warn("Failed to run tests for ASM: $!\n");
+    system("./AutisticDebugger/test/test_dbg") == 0 or warn("Failed to run tests for ASM: $!\n");
 }
 
 
